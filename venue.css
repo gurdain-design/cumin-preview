@@ -1,0 +1,105 @@
+.venue-body {
+  padding-top: 30px;
+}
+
+.venue-body h1 {
+  color: white;
+  padding-top: 20px;
+  font-weight: bold;
+}
+
+.venue-body p {
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  width: 700px;
+  height: 80px;
+
+}
+
+.venue-container {
+  background-color: #1A1A1A;
+  margin: auto;
+  width: 800px;
+  height: 180px;
+  position: relative;
+}
+
+.img-venue {
+  width: 30%;
+  float: left;
+  padding-right: 20px;
+}
+
+.venue-container a {
+  text-decoration: none;
+}
+
+.venue-container a:hover {
+  text-decoration: underline;
+}
+
+#more-btn {
+  font-size: 1em;
+  font-weight: lighter;
+  color: #C89230;
+}
+
+/* Responsiveness */
+@media only screen and (max-width: 991px) {
+  .venue-container {
+    width: 95%;
+  }
+
+  .venue-body p {
+    display: none;
+  }
+
+  .img-venue {
+    width: 180px;
+  }
+
+  .venue-container {
+    width: 90%;
+    height: 135px;
+  }
+
+  .venue-body h1 {
+    height: 80px;
+    padding-right: 20px;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+  .venue-body h1 {
+    font-size: 9pt;
+    padding-right: 20px;
+    line-height: 1.5;
+  }
+
+  #more-btn {
+    font-size: 9pt;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .img-venue {
+    width: 100px;
+  }
+
+  .venue-container {
+    height: 76px;
+  }
+
+  .venue-body h1 {
+    font-size: 7pt;
+    padding-top: 5%;
+    padding-right: 20px;
+    line-height: 1.5;
+  }
+
+  #more-btn {
+    display: none;
+  }
+}

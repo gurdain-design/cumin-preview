@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="master.css">
+  <link rel="stylesheet" href="venue.css">
+  <link rel="stylesheet" href="venue-info.css">
+  <title>The Cumin Events</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+
+<body>
+  <nav class="navBar" id="response-nav">
+    <a id="logo" href="index.html">
+      <img src="images/logo.png" alt="logo">
+    </a>
+
+    <a id="contact" href="mailto:info@thecuminevents.co.uk">
+      CONTACT
+    </a>
+
+    <a id="contact" href="venues.html">
+      VENUES
+    </a>
+
+    <a id="contact" href="menu.html">
+      MENU
+    </a>
+
+    <a id="contact" href="scalford-country-house.html">
+      SCALFORD COUNTRY HOUSE
+    </a>
+
+    <a id="contact" href="about.html">
+      ABOUT
+    </a>
+
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </nav>
+  <div class="wrapper">
+    <header class="header-container">
+      <div class="centered">NOTTINGHAMSHIRE GOLF CLUB</div>
+      <img class="img-header" src="images/venue-header.png">
+    </header>
+    <div class="info-body">
+      <div class="info-img">
+        <img src="images/7.png">
+      </div>
+      <div class="info-txt">
+        <p>Set in 340 acres of rolling countryside and manicured grounds,
+          Discovering the hidden gem that is The Nottinghamshire is the
+          first step in planning your special day. From the winding
+          driveway and red carpet welcome, to an evening dancing
+          under the twinkling lights, The Nottinghamshire provides
+          the perfect backdrop for your Wedding. Following the
+          completion of an over one million pound investment,
+          the stylish suite is quickly being recognised as one of
+          the midlands top venues. Perfect for small intimate weddings,
+          sangheet nights and mendhis.</p>
+      </div>
+      <div class="info-spec">
+        <ul>
+          <h1>Specifications</h1>
+          <li>Up to 180 banquet style</li>
+          <li>Beautiful landscaped courses</li>
+          <li>Red carpet</li>
+          <li>Parking</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <p>The Cumin Events<p>
+  </footer>
+  </div>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("response-nav");
+      if (x.className === "navBar") {
+        x.className += " responsive";
+      } else {
+        x.className = "navBar";
+      }
+    }
+  </script>
+</body>
+
+</html>

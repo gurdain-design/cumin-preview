@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="master.css">
+  <link rel="stylesheet" href="venue.css">
+  <link rel="stylesheet" href="venue-info.css">
+  <title>The Cumin Events</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+
+<body>
+  <nav class="navBar" id="response-nav">
+    <a id="logo" href="index.html">
+      <img src="images/logo.png" alt="logo">
+    </a>
+
+    <a id="contact" href="mailto:info@thecuminevents.co.uk">
+      CONTACT
+    </a>
+
+    <a id="contact" href="venues.html">
+      VENUES
+    </a>
+
+    <a id="contact" href="menu.html">
+      MENU
+    </a>
+
+    <a id="contact" href="scalford-country-house.html">
+      SCALFORD COUNTRY HOUSE
+    </a>
+
+    <a id="contact" href="about.html">
+      ABOUT
+    </a>
+
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </nav>
+  <div class="wrapper">
+    <header class="header-container">
+      <div class="centered">EAST MIDLANDS CONFERENCE CENTRE & ORCHARD HOTEL</div>
+      <img class="img-header" src="images/venue-header.png">
+    </header>
+    <div class="info-body">
+      <div class="info-img">
+        <img src="images/3.png">
+      </div>
+      <div class="info-txt">
+        <p>Hidden away within University Park is the East Midlands Conference
+          Center. Set in 330 acres of landscaped parkland, the EMCC provides
+          a beautiful backdrop to your day. Not only does it boast a
+          banqueting suite that can hold up to 500, adjacent to the East
+          Midlands Conference Center is the Orchard Hotel. Opened in November
+          2012, this 202-bed Eco-friendly hotel has been designed to maximize
+          the use of natural daylight and features rooftop terraces,
+          floor-to-ceiling windows and unique contemporary decor throughout.</p>
+      </div>
+      <div class="info-spec">
+        <ul>
+          <h1>Specifications</h1>
+          <li>Up to 500 banquet style</li>
+          <li>Starcloth backdrop</li>
+          <li>Threate room (from religious ceremonies)</li>
+          <li>Orchard Hotel (on site hotel)</li>
+          <li>202 bedrooms</li>
+          <li>Parking</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <p>The Cumin Events<p>
+  </footer>
+  </div>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("response-nav");
+      if (x.className === "navBar") {
+        x.className += " responsive";
+      } else {
+        x.className = "navBar";
+      }
+    }
+  </script>
+</body>
+
+</html>

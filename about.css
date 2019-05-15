@@ -1,0 +1,48 @@
+.about-container {
+  padding-top: 30px;
+  width: 600px;
+  position: relative;
+  margin: auto;
+}
+
+.about-container p {
+  color: white;
+  font-weight: bold;
+  text-align: left;
+  line-height: 1.5;
+}
+
+/* Responsiveness */
+@media only screen and (max-width: 991px) {
+  .about-container {
+    width: 500px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .about-container {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .about-container {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .about-container {
+    width: 280px;
+  }
+}
+
+@media only screen and (max-width: 325px) {
+  .about-container {
+    width: 220px;
+  }
+
+  .about-container p {
+    font-size: 9pt;
+  }
+}
